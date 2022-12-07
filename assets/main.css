@@ -1,0 +1,61 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+:root {
+	--background: #000;
+	--color: #d4d5d5;
+	--accent: #890620;
+	--btn-color: #890620;
+	--btn-border: ;
+	--btn-hover-color: #ff4d6d;
+	--btn-hover-border: #c9184a;
+}
+
+#section {
+    border: 1px solid var(--accent);
+    padding: 20px 35px 40px 35px;
+    border-top: none;border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+body{
+	background: var(--background);
+	color: var(--color);
+}
+
+.btn {
+	background-color: var(--btn-color);
+	border-color: var(--btn-border);
+	color: var(--color);
+}
+.btn:hover {
+	background-color: var(--btn-hover-color);
+	border-color: var(--btn-border);
+}
+
+#embedding-container {
+	display: flex; 
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.embedding-item {
+	border: 1px solid var(--accent);
+	width: 350px;
+	padding: 15px;
+	padding-bottom: 0;
+	margin: 10px;
+}
+.embedding-item .carousel {
+	margin: 15px 0;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators [data-bs-target] {
+	background-color: var(--accent);
+}
