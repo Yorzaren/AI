@@ -772,15 +772,5 @@
       "https://huggingface.co/sd-concepts-library/teelip-ir-landscape/resolve/main/concept_images/4.jpeg"
     ],
     "token_word": "<teelip-ir-landscape>"
-  },
-  {
-    "name": "EmbeddingName",
-    "source": "www.google.com",
-    "images": [
-      "sdfsdfsdf",
-      "sfsf",
-      "sdfsf"
-    ],
-    "token_word": "<sdfsdf>"
   }
 ]
