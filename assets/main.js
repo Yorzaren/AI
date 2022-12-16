@@ -18,6 +18,9 @@ $(function() {
 
 		}
 		new ClipboardJS('.btn');
+	})
+	.fail(function() {
+		$('#embedding-container').html('<p style="color:red">Data could not be loaded.</p>')
 	});
 });
 
