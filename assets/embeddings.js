@@ -42,9 +42,9 @@ function createEmbeddingItem(name, source, token_word, images, IDize) {
 			
 			</div>
 			<div class="input-group mb-3">
-				<span class="input-group-text" id="basic-addon1">Token Word</span>
+				<span class="input-group-text">Token Word</span>
 				<input type="text" class="form-control" value="${token_word}" id="embedding-item-${IDize}-token">
-				<button class="btn" type="button" id="button-addon2" data-clipboard-target="#embedding-item-${IDize}-token">Copy <i class="bi bi-clipboard2-fill"></i>
+				<button class="btn" type="button" data-clipboard-target="#embedding-item-${IDize}-token">Copy <i class="bi bi-clipboard2-fill"></i>
 				</button>
 			</div>
 		</div>

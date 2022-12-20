@@ -29,7 +29,10 @@
 					<a class="nav-link" href="index.html">Main</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="https://google.com">Google</a>
+					<a class="nav-link" href="models.html">Models</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="embeddings.html">Embeddings</a>
 				</li>
 			</ul>
 		</div>
@@ -37,32 +40,13 @@
 	<div id="section" class="container">
 		<h1>Models</h1>
 		<div id="model-container">
-			<div class="model-item" id="model-item-NAME">
-				<h2>NAME by <span class="creator-tag">CREATOR</span> <a href="MODELCARDLINK" title="Go to Model Card"><i class="bi-file-earmark-code-fill" role="img" aria-label="Model Card"></i></a></h2>
-				<div class="releases-container">
-					<div class="release">
-						<h4>NAME (RELEASE DATE) <a href="" title="Download Model"><i class="bi bi-download"></i></a></h4>
-						<b>SHA256: </b><code>HASH</code><br>
-						<b>Description: </b>WORDS
-					</div>
-				</div>
-				<br>
-				<div class="input-group mb-3">
-					<span class="input-group-text" id="basic-addon1">Token Word&nbsp;<span style="cursor:pointer" title="Sometimes models have trigger words to influence generations">[?]</span></span>
-					<input type="text" class="form-control" value="TOKENWORD" id="model-item-NAME-token">
-					<button class="btn" type="button" id="button-addon2" data-clipboard-target="#model-item-NAME-token">Copy <i class="bi bi-clipboard2-fill"></i></button>
-				</div>
-				<div class="model-tag-container">
-					<b>Tags:</b><span class="model-tag">TAG</span><span class="model-tag">TAG</span>
-				</div>
-			</div>
+			<p>Loading Data from models.json</p>
 		</div>
 		<h1>Embeddings</h1>
 		<p>Embedding or textual inversion can be used to fine tune a model's output. The files are <code>.bin</code> or <code>.pt</code>. They are a lot smaller than a full model checkpoint (<code>.ckpt</code>) <a href="https://huggingface.co/docs/diffusers/training/text_inversion" class="external-link">[Read More]</a>.</p> 
 		<hr>
 		<div id="embedding-container">
 			<p>Loading Data from embeddings.json</p>
-			
 		</div>
 	</div>
 	</body>
