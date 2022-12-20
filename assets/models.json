@@ -2,52 +2,66 @@
   {
     "name": "Stable Diffusion v1.4",
     "info_link": "https://huggingface.co/CompVis/stable-diffusion-v-1-4-original",
-    "creator": "CompVis",
-    "release-date": "Aug 2022",
-	"download_link": "https://huggingface.co/CompVis/stable-diffusion-v-1-4-original",
-    "hash": "",
-    "description": "The Stable-Diffusion-v-1-4 checkpoint was initialized with the weights of the Stable-Diffusion-v-1-2 checkpoint and subsequently fine-tuned on 225k steps at resolution 512x512 on 'laion-aesthetics v2 5+' and 10% dropping of the text-conditioning to improve classifier-free guidance sampling.",
+	"creator": "CompVis",
+	"releases": [{
+        "name": "sd-v1-4.ckpt",
+        "release-date": "Aug 2022",
+		"download_link": "https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/blob/main/sd-v1-4.ckpt",
+        "SHA256": "fe4efff1e174c627256e44ec2991ba279b3816e364b49f9be2abc0b3ff3f8556",
+		"description": "The Stable-Diffusion-v-1-4 checkpoint was initialized with the weights of the Stable-Diffusion-v-1-2 checkpoint and subsequently fine-tuned on 225k steps at resolution 512x512 on 'laion-aesthetics v2 5+' and 10% dropping of the text-conditioning to improve classifier-free guidance sampling."
+    }],
     "tags": ["Main SD Release"]
   },
-    {
+  {
     "name": "Stable Diffusion v1.5",
     "info_link": "https://huggingface.co/runwayml/stable-diffusion-v1-5",
     "creator": "runwayml",
-    "release-date": "Oct 2022",
-	"download_link": "https://huggingface.co/runwayml/stable-diffusion-v1-5",
-    "hash": "",
-    "description": "The Stable-Diffusion-v1-5 checkpoint was initialized with the weights of the Stable-Diffusion-v1-2 checkpoint and subsequently fine-tuned on 595k steps at resolution 512x512 on 'laion-aesthetics v2 5+' and 10% dropping of the text-conditioning to improve classifier-free guidance sampling.",
+    "releases": [{
+        "name": "v1-5-pruned-emaonly.ckpt",
+        "release-date": "Oct 2022",
+		"download_link": "https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.ckpt",
+        "SHA256": "cc6cb27103417325ff94f52b7a5d2dde45a7515b25c255d8e396c90014281516",
+		"description": "The Stable-Diffusion-v1-5 checkpoint was initialized with the weights of the Stable-Diffusion-v1-2 checkpoint and subsequently fine-tuned on 595k steps at resolution 512x512 on 'laion-aesthetics v2 5+' and 10% dropping of the text-conditioning to improve classifier-free guidance sampling."
+    }],
     "tags": ["Main SD Release"]
   },
   {
     "name": "Stable Diffusion v1.5 Inpainting",
     "link": "https://huggingface.co/runwayml/stable-diffusion-inpainting",
     "creator": "runwayml",
-    "release-date": "Oct 2022",
-    "download_link": "https://huggingface.co/runwayml/stable-diffusion-inpainting",
-    "hash": "",
-    "description": "Based off SD 1.5. Specifically made for inpainting.",
+	"releases": [{
+        "name": "sd-v1-5-inpainting.ckpt",
+        "release-date": "Oct 2022",
+		"download_link": "https://huggingface.co/runwayml/stable-diffusion-inpainting/blob/main/sd-v1-5-inpainting.ckpt",
+        "SHA256": "c6bbc15e3224e6973459ba78de4998b80b50112b0ae5b5c67113d56b4e366b19",
+		"description": "Based off SD 1.5. Specifically made for inpainting."
+    }],
     "tags": ["Mod"]
   },
   {
     "name": "Waifu Diffusion v1.3",
     "link": "https://huggingface.co/hakurei/waifu-diffusion",
     "creator": "hakurei",
-    "release-date": "Oct 2022",
-	"download_link": "https://huggingface.co/hakurei/waifu-diffusion-v1-3/blob/main/wd-v1-3-float32.ckpt",
-    "hash": "",
-    "description": "Based off SD 1.4. Fine-tuned for anime images.",
-    "keyword": "",
+    "releases": [{
+        "name": "sd-v1-5-inpainting.ckpt",
+        "release-date": "Oct 2022",
+		"download_link": "https://huggingface.co/hakurei/waifu-diffusion-v1-3/blob/main/wd-v1-3-float32.ckpt",
+        "SHA256": "9dade826203c7ee369881b5dc20d34298fa644c1f137568e09fbc4b9a0d3e817",
+		"description": "Based off SD 1.4. Fine-tuned for anime images."
+    }],
     "tags": ["Mod", "Anime"]
   },
   {
     "name": "JWST Deep Space Diffusion",
     "info_link": "https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion",
     "creator": "dallinmackay",
-    "release-date": "Nov 2022",
-    "download_link": "https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion/blob/main/JWST-Deep-Space.ckpt",
-    "hash": "",
-    "description": "Based off SD 1.5. Makes images. Ex.) jwst, green spiral galaxy",
+	"releases": [{
+        "name": "JWST-Deep-Space.ckpt",
+		"release-date": "Nov 2022",
+		"download_link": "https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion/blob/main/JWST-Deep-Space.ckpt",
+        "SHA256": "6f63189540752b5c5bc70c7bcf4a6facd332ee3ce891ee57a6cf01dd0421aada",
+		"description": "Based off SD 1.5. Makes images. Ex.) jwst, green spiral galaxy"
+    }],
     "keyword": "JWST",
     "tags": ["Mod"]
   },
@@ -55,10 +69,13 @@
     "name": "Inkpunk Diffusion v2",
     "info_link": "https://huggingface.co/Envvi/Inkpunk-Diffusion",
     "creator": "Envvi",
-    "release-date": "Nov 2022",
-    "download_link": "https://huggingface.co/Envvi/Inkpunk-Diffusion/blob/main/Inkpunk-Diffusion-v2.ckpt",
-    "hash": "",
-    "description": "Finetuned Stable Diffusion model trained on dreambooth. Vaguely inspired by Gorillaz, FLCL, and Yoji Shinkawa. 'ink splatter' can be used to increase the splotches. Its also a bit skewed to making people.",
+	"releases": [{
+        "name": "Inkpunk-Diffusion-v2.ckpt",
+		"release-date": "Nov 2022",
+		"download_link": "https://huggingface.co/Envvi/Inkpunk-Diffusion/blob/main/Inkpunk-Diffusion-v2.ckpt",
+        "SHA256": "2182245415908822cbac065128a4c5144cc547d0701feb21241cb4e70bb5cf56",
+		"description": "Finetuned Stable Diffusion model trained on dreambooth. Vaguely inspired by Gorillaz, FLCL, and Yoji Shinkawa. 'ink splatter' can be used to increase the splotches. Its also a bit skewed to making people."
+    }],
     "keyword": "nvinkpunk",
     "tags": ["Mod"]
   },
@@ -66,20 +83,26 @@
     "name": "Dungeons and Diffusion",
     "info_link": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion",
     "creator": "0xJustin",
-    "release-date": "Nov 2022",
-    "download_link": "",
-    "hash": "",
-    "description": "Makes DnD classes. See: https://huggingface.co/datasets/0xJustin/Dungeons-and-Diffusion for the available races.",
+    "releases": [{
+        "name": "DnD_Classes_and_Species.ckpt",
+		"release-date": "Nov 2022",
+		"download_link": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/blob/main/DnD_Classes_and_Species.ckpt",
+        "SHA256": "14127ea0778b9f558d85cb9c5d94bda24bc4c9cb8d2f8900fec5ef7fad7925c7",
+		"description": "Makes DnD classes. See: https://huggingface.co/datasets/0xJustin/Dungeons-and-Diffusion for the available races."
+	}],
     "tags": ["Mod"]
   },
   {
     "name": "Robo Diffusion",
     "info_link": "https://huggingface.co/nousr/robo-diffusion",
     "creator": "nousr",
-    "release-date": "Sept 2022",
-    "download_link": "https://huggingface.co/nousr/robo-diffusion/blob/main/models/robo-diffusion-v1.ckpt",
-    "hash": "",
-    "description": "Makes robots.",
+	"releases": [{
+        "name": "robo-diffusion-v1.ckpt",
+		"release-date": "Sept 2022",
+		"download_link": "https://huggingface.co/nousr/robo-diffusion/blob/main/models/robo-diffusion-v1.ckpt",
+        "SHA256": "244dbe0dcb55c761bde9c2ac0e9b46cc9705ebfe5f1f3a7cc46251573ea14e16",
+		"description": "Makes robots."
+	}],
     "keyword": "nousr robot",
     "tags": ["Mod"]
   },
@@ -87,20 +110,26 @@
     "name": "Anything v3",
     "info_link": "https://huggingface.co/Linaqruf/anything-v3.0",
     "creator": "Linaqruf",
-    "release-date": "Nov 2022",
-    "download_link": "https://huggingface.co/Linaqruf/anything-v3.0/blob/main/Anything-V3.0-pruned.ckpt",
-    "hash": "",
-    "description": "Anime style.",
-    "tags": ["Mod"]
+	"releases": [{
+        "name": "Anything-V3.0-pruned.ckpt",
+		"release-date": "Nov 2022",
+		"download_link": "https://huggingface.co/Linaqruf/anything-v3.0/blob/main/Anything-V3.0-pruned.ckpt",
+        "SHA256": "543bcbc21294831c6245cd74c8a7707761e28812c690f946cb81fef930d54b5e",
+		"description": "Anime style."
+	}],
+    "tags": ["Mod", "Anime"]
   },
   {
     "name": "Arcane Diffusion v3",
     "info_link": "https://huggingface.co/nitrosocke/Arcane-Diffusion",
     "creator": "nitrosocke",
-    "release-date": "Oct 2022",
-    "download_link": "https://huggingface.co/nitrosocke/Arcane-Diffusion/blob/main/arcane-diffusion-v3.ckpt",
-    "hash": "",
-    "description": "In the style of the Arcane TV show.",
+	"releases": [{
+        "name": "Anything-V3.0-pruned.ckpt",
+		"release-date": "Oct 2022",
+		"download_link": "https://huggingface.co/nitrosocke/Arcane-Diffusion/blob/main/arcane-diffusion-v3.ckpt",
+        "SHA256": "7dd0e6760f5a6778bebbbdaedd96aa1038ca76c349194f0c1b5c28311e10a78b",
+		"description": "In the style of the Arcane TV show."
+	}],
     "keyword": "arcane style",
     "tags": ["Mod"]
   }

@@ -37,6 +37,20 @@ body{
 	justify-content: center;
 }
 
+.model-item {
+	border: 1px solid var(--accent);
+	padding: 15px;
+}
+
+.model-tag {
+	margin-left: 5px;
+	background: red;
+	padding: 2px;
+	border: 1px solid red;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
 .embedding-item {
 	border: 1px solid var(--accent);
 	width: 350px;
