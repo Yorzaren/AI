@@ -27,7 +27,7 @@
   },
   {
     "name": "Stable Diffusion v1.5 Inpainting",
-    "link": "https://huggingface.co/runwayml/stable-diffusion-inpainting",
+    "info_link": "https://huggingface.co/runwayml/stable-diffusion-inpainting",
     "creator": "runwayml",
 	"releases": [{
         "name": "sd-v1-5-inpainting.ckpt",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Waifu Diffusion v1.3",
-    "link": "https://huggingface.co/hakurei/waifu-diffusion",
+    "info_link": "https://huggingface.co/hakurei/waifu-diffusion",
     "creator": "hakurei",
     "releases": [{
         "name": "sd-v1-5-inpainting.ckpt",
