@@ -11,7 +11,7 @@ $(function() {
 			var keyword = data[item].keyword;
 			var IDize = name.replace(/[^A-Za-z0-9]/g,""); // Use to make sure its doesnt break html
 			
-			console.log(name, info_link, creator, releases, keyword, tags, IDize);
+			//console.log(name, info_link, creator, releases, keyword, tags, IDize);
 			createModelItem(name, info_link, creator, releases, keyword, tags, IDize);
 			
 			// Add releases to the model card
@@ -23,7 +23,7 @@ $(function() {
 				var download = release_entry.download_link;
 				var hash = release_entry.SHA256;
 				var desc = release_entry.description;
-				console.log('model-item-'+IDize, r_name, date, download, hash, desc);
+				//console.log('model-item-'+IDize, r_name, date, download, hash, desc);
 				createModelRelease('model-item-'+IDize, r_name, date, download, hash, desc);
 			}
 			

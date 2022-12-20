@@ -9,13 +9,9 @@ $(function() {
 			var images = data[item].images;
 			var IDize = name.replace(/[^A-Za-z0-9]/g,"");
 
-			
-			console.log(name, source, token, images);
-			console.log(images.length);
-			if (name != 'EmbeddingName') {
+			//console.log(name, source, token, images);
+			//console.log(images.length);
 			createEmbeddingItem(name, source, token, images, IDize);
-			}
-
 		}
 		new ClipboardJS('.btn');
 	})
