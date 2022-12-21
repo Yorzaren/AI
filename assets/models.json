@@ -43,7 +43,7 @@
     "info_link": "https://huggingface.co/hakurei/waifu-diffusion",
     "creator": "hakurei",
     "releases": [{
-        "name": "sd-v1-5-inpainting.ckpt",
+        "name": "wd-v1-3-float32.ckpt",
         "release_date": "Oct 2022",
 		"download_link": "https://huggingface.co/hakurei/waifu-diffusion-v1-3/blob/main/wd-v1-3-float32.ckpt",
         "SHA256": "9dade826203c7ee369881b5dc20d34298fa644c1f137568e09fbc4b9a0d3e817",
