@@ -90,7 +90,7 @@
         "SHA256": "14127ea0778b9f558d85cb9c5d94bda24bc4c9cb8d2f8900fec5ef7fad7925c7",
 		"description": "Makes DnD classes. See: https://huggingface.co/datasets/0xJustin/Dungeons-and-Diffusion for the available races."
 	}],
-    "tags": ["Mod"]
+    "tags": ["Mod", "RPG"]
   },
   {
     "name": "Robo Diffusion",
@@ -124,7 +124,7 @@
     "info_link": "https://huggingface.co/nitrosocke/Arcane-Diffusion",
     "creator": "nitrosocke",
 	"releases": [{
-        "name": "Anything-V3.0-pruned.ckpt",
+        "name": "arcane-diffusion-v3.ckpt",
 		"release_date": "Oct 2022",
 		"download_link": "https://huggingface.co/nitrosocke/Arcane-Diffusion/blob/main/arcane-diffusion-v3.ckpt",
         "SHA256": "7dd0e6760f5a6778bebbbdaedd96aa1038ca76c349194f0c1b5c28311e10a78b",
@@ -132,5 +132,18 @@
 	}],
     "keyword": "arcane style",
     "tags": ["Mod"]
+  },
+  {
+    "name": "RPG",
+    "info_link": "https://huggingface.co/Anashel/rpg",
+    "creator": "Anashel",
+	"releases": [{
+        "name": "RPG-v2.ckpt",
+		"release_date": "Dec 2022",
+		"download_link": "https://huggingface.co/Anashel/rpg/blob/main/RPG-v2.ckpt",
+        "SHA256": "2c99eb705a6f7e84cd4dc2e41a024cbfa1e9b2c46cb2ca37e6f5e577aa79a3c9",
+		"description": "RPG and DnD classes."
+	}],
+    "tags": ["Mod", "RPG"]
   }
 ]

@@ -772,5 +772,15 @@
       "https://huggingface.co/sd-concepts-library/teelip-ir-landscape/resolve/main/concept_images/4.jpeg"
     ],
     "token_word": "<teelip-ir-landscape>"
+  },
+  {
+	"name": "bad prompt",
+	"source": "https://huggingface.co/datasets/Nerfgun3/bad_prompt",
+	"token_word": "bad_prompt"
+  },
+  {
+	"name": "bad artist",
+	"source": "https://huggingface.co/nick-x-hacker/bad-artist",
+	"token_word": "by bad-artist"
   }
 ]
