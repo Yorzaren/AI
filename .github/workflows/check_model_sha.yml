@@ -1,5 +1,5 @@
 # Check the models.json and if SHA256 are mixmatched, create an issue. Run on call or on Sundays.
-name: SHA Check Test on model.json
+name: Check SHA256s strings in models.json against live counter part
 on:
   workflow_dispatch:
   schedule:
@@ -21,7 +21,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-      - name: Run SHA Check Test on model.json
+      - name: Run SHA Test on models.json
         run: |
           python run_script_check_model_sha.py
         id: check
