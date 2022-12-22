@@ -43,8 +43,7 @@ def check_ckpt_release(json_elem):
     model_ckpt_link = json_elem.get("download_link")
     model_sha = json_elem.get("SHA256")
 
-    #sha_from_url = get_sha256(model_ckpt_link)
-    sha_from_url = "get_sha256(model_ckpt_link)"
+    sha_from_url = get_sha256(model_ckpt_link)
 
     if compare_sha(model_sha, sha_from_url): # SHA Matches
         print("PASS: " + model_name, model_ckpt_link, model_sha)
