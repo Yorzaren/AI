@@ -1,5 +1,5 @@
 # Check the models.json and if SHA256 are mixmatched, create an issue. Run on call or on Sundays.
-name: Find Broken Image Links from embeddings.json
+name: SHA Check Test on model.json
 on:
   workflow_dispatch:
   schedule:
