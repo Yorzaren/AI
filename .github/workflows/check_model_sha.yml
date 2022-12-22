@@ -1,0 +1,42 @@
+# Check the models.json and if SHA256 are mixmatched, create an issue. Run on call or on Sundays.
+name: Find Broken Image Links from embeddings.json
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs "At 00:00 UTC on Sunday" (see https://crontab.guru)
+    - cron: '0 0 * * 0'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v3
+      - name: Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Run SHA Check Test on model.json
+        run: |
+          python run_script_check_model_sha.py
+        id: check
+      - name: Print SHA Check Output
+        run: |
+          echo "Has bad SHA256s: ${{ env.COUNT_BAD_SHA }}"
+          echo "${{ env.BAD_SHA_OUTPUT }}"
+      - name: Create Issue on Failed Workflow
+        if: ${{ env.COUNT_BAD_SHA == 'True' }}  # Seems to read it as a string
+        uses: dacbd/create-issue-action@main
+        with:
+          token: ${{ github.token }}
+          title: There's mismatched SHAs in models.json
+          body: |
+            [Run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) - [Codebase](https://github.com/${{ github.repository }}/tree/${{ github.sha }})
+            **Workflow name** - `${{ github.workflow }}`
+            ### Fix: 
+            ${{ env.BAD_SHA_OUTPUT }}
