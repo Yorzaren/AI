@@ -38,7 +38,7 @@
   },
   {
     "name": "Dan Seagrave",
-    "soruce": "https://huggingface.co/sd-concepts-library/dan-seagrave-art-style",
+    "source": "https://huggingface.co/sd-concepts-library/dan-seagrave-art-style",
     "images": [
       "https://huggingface.co/sd-concepts-library/dan-seagrave-art-style/resolve/main/concept_images/3.jpeg",
       "https://huggingface.co/sd-concepts-library/dan-seagrave-art-style/resolve/main/concept_images/0.jpeg",
