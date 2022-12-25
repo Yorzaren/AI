@@ -27,8 +27,9 @@ def get_images_as_array(input_json):
     img_array = []
     for entry in input_json:
         images = entry.get('images')
-        for img in images:
-            img_array.append(img)
+        if images is not None:
+            for img in images:
+                img_array.append(img)
     return img_array
 
 
