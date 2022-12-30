@@ -39,6 +39,14 @@
 	</nav>
 	<div id="section" class="container">
 		<h1>Models</h1>
+		<p><b>For general use, get pruned and EMA models (the smaller .ckpt files) as they contain only the data needed for inference.</b> Models that come with custom VAEs, fix issues like colour desaturation and faces. <a href="https://old.reddit.com/r/StableDiffusion/comments/zq7wu3/is_vae_worth_using_couple_of_questions/" class="external-link">[Read More]</a> (<a href="https://old.reddit.com/r/StableDiffusion/comments/z6y6n4/whats_a_vae/iy4adq5/" class="external-link">What is a VAE?</a>) Without EMA (exponential moving average) the model tends to overfit during the last part of generation. <a href="https://old.reddit.com/r/MachineLearning/comments/ucflc2/d_understanding_the_use_of_ema_in_diffusion_models/i6a52yc/" class="external-link">[src]</a></p>
+		<p>
+		  <ul>
+			<li>If you plan on training/extending the models, get the other (larger) none pruned versions (and make sure disable the EMA weights which is included in it). <a href="https://old.reddit.com/r/StableDiffusion/comments/x5am4v/ema_model_vs_non_ema_differences/io5l1zq/" class="external-link">[src]</a></li>
+			<li>Pruning a model makes it smaller by taking the values close to zero turning them zero to reduce the connections. <a href="https://old.reddit.com/r/StableDiffusion/comments/xymibu/what_does_it_mean_to_prune_a_model/irkc5tg/" class="external-link">[src]</a></li>
+		  </ul>
+		</p>
+		<hr>
 		<div id="model-container">
 			<p>Loading Data from models.json</p>
 		</div>
