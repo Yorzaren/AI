@@ -145,7 +145,7 @@
 		"download_link": "https://huggingface.co/nitrosocke/Arcane-Diffusion/blob/main/arcane-diffusion-v3.ckpt",
         "SHA256": "7dd0e6760f5a6778bebbbdaedd96aa1038ca76c349194f0c1b5c28311e10a78b",
 		"description": "In the style of the Arcane TV show.",
-		"vae_link": "https://huggingface.co/Linaqruf/anything-v3.0/blob/main/vae/diffusion_pytorch_model.bin",
+		"vae_link": "https://huggingface.co/nitrosocke/Arcane-Diffusion/blob/main/vae/diffusion_pytorch_model.bin",
 		"vae_SHA256": "b8cf5b49d164db18a485d392b2d9a9b4e3636d70613cb756d2e1bc460dd13161"
 	}],
     "keyword": "arcane style",
