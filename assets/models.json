@@ -21,7 +21,9 @@
         "release_date": "Oct 2022",
 		"download_link": "https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.ckpt",
         "SHA256": "cc6cb27103417325ff94f52b7a5d2dde45a7515b25c255d8e396c90014281516",
-		"description": "The Stable-Diffusion-v1-5 checkpoint was initialized with the weights of the Stable-Diffusion-v1-2 checkpoint and subsequently fine-tuned on 595k steps at resolution 512x512 on 'laion-aesthetics v2 5+' and 10% dropping of the text-conditioning to improve classifier-free guidance sampling."
+		"description": "The Stable-Diffusion-v1-5 checkpoint was initialized with the weights of the Stable-Diffusion-v1-2 checkpoint and subsequently fine-tuned on 595k steps at resolution 512x512 on 'laion-aesthetics v2 5+' and 10% dropping of the text-conditioning to improve classifier-free guidance sampling.",
+		"vae_link": "https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/vae/diffusion_pytorch_model.bin",
+		"vae_SHA256": "1b134cded8eb78b184aefb8805b6b572f36fa77b255c483665dda931fa0130c5"
     }],
     "tags": ["Main SD Release"]
   },
@@ -34,7 +36,9 @@
         "release_date": "Oct 2022",
 		"download_link": "https://huggingface.co/runwayml/stable-diffusion-inpainting/blob/main/sd-v1-5-inpainting.ckpt",
         "SHA256": "c6bbc15e3224e6973459ba78de4998b80b50112b0ae5b5c67113d56b4e366b19",
-		"description": "Based off SD 1.5. Specifically made for inpainting."
+		"description": "Based off SD 1.5. Specifically made for inpainting.",
+		"vae_link": "https://huggingface.co/runwayml/stable-diffusion-inpainting/blob/main/vae/diffusion_pytorch_model.bin",
+		"vae_SHA256": "1b134cded8eb78b184aefb8805b6b572f36fa77b255c483665dda931fa0130c5"
     }],
     "tags": ["Mod"]
   },
@@ -47,7 +51,9 @@
         "release_date": "Oct 2022",
 		"download_link": "https://huggingface.co/hakurei/waifu-diffusion-v1-3/blob/main/wd-v1-3-float32.ckpt",
         "SHA256": "9dade826203c7ee369881b5dc20d34298fa644c1f137568e09fbc4b9a0d3e817",
-		"description": "Based off SD 1.4. Fine-tuned for anime images."
+		"description": "Based off SD 1.4. Fine-tuned for anime images.",
+		"vae_link": "https://huggingface.co/hakurei/waifu-diffusion/blob/main/vae/diffusion_pytorch_model.bin",
+		"vae_SHA256": "3e174991e5609bc5c2b3995e3f223fb2c5f0ae3be307fa9591b351d837a08770"
     }],
     "tags": ["Mod", "Anime"]
   },
@@ -60,7 +66,9 @@
 		"release_date": "Nov 2022",
 		"download_link": "https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion/blob/main/JWST-Deep-Space.ckpt",
         "SHA256": "6f63189540752b5c5bc70c7bcf4a6facd332ee3ce891ee57a6cf01dd0421aada",
-		"description": "Based off SD 1.5. Makes images. Ex.) jwst, green spiral galaxy"
+		"description": "Based off SD 1.5. Makes images. Ex.) jwst, green spiral galaxy",
+		"vae_link": "https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion/blob/main/vae/diffusion_pytorch_model.bin",
+		"vae_SHA256": "3a407758a137a1c6bfcd11e154eb06e4dcffa996009e46eb27d1af04a81e7e74"
     }],
     "keyword": "JWST",
     "tags": ["Mod"]
@@ -74,7 +82,9 @@
 		"release_date": "Nov 2022",
 		"download_link": "https://huggingface.co/Envvi/Inkpunk-Diffusion/blob/main/Inkpunk-Diffusion-v2.ckpt",
         "SHA256": "2182245415908822cbac065128a4c5144cc547d0701feb21241cb4e70bb5cf56",
-		"description": "Finetuned Stable Diffusion model trained on dreambooth. Vaguely inspired by Gorillaz, FLCL, and Yoji Shinkawa. 'ink splatter' can be used to increase the splotches. Its also a bit skewed to making people."
+		"description": "Finetuned Stable Diffusion model trained on dreambooth. Vaguely inspired by Gorillaz, FLCL, and Yoji Shinkawa. 'ink splatter' can be used to increase the splotches. Its also a bit skewed to making people.",
+		"vae_link": "https://huggingface.co/Envvi/Inkpunk-Diffusion/blob/main/vae/diffusion_pytorch_model.bin",
+		"vae_SHA256": "dcf4507d99b88db73f3916e2a20169fe74ada6b5582e9af56cfa80f5f3141765"
     }],
     "keyword": "nvinkpunk",
     "tags": ["Mod"]
@@ -88,7 +98,9 @@
 		"release_date": "Nov 2022",
 		"download_link": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/blob/main/DnD_Classes_and_Species.ckpt",
         "SHA256": "14127ea0778b9f558d85cb9c5d94bda24bc4c9cb8d2f8900fec5ef7fad7925c7",
-		"description": "Makes DnD classes. See: https://huggingface.co/datasets/0xJustin/Dungeons-and-Diffusion for the available races."
+		"description": "Makes DnD classes. See: https://huggingface.co/datasets/0xJustin/Dungeons-and-Diffusion for the available races.",
+		"vae_link": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/blob/main/vae/diffusion_pytorch_model.bin",
+		"vae_SHA256": "36bb8e1b54aba3a0914eb35fba13dcb107e9f18d379d1df2158732cd4bf56a94"
 	}],
     "tags": ["Mod", "RPG"]
   },
@@ -101,7 +113,9 @@
 		"release_date": "Sept 2022",
 		"download_link": "https://huggingface.co/nousr/robo-diffusion/blob/main/models/robo-diffusion-v1.ckpt",
         "SHA256": "244dbe0dcb55c761bde9c2ac0e9b46cc9705ebfe5f1f3a7cc46251573ea14e16",
-		"description": "Makes robots."
+		"description": "Makes robots.",
+		"vae_link": "https://huggingface.co/nousr/robo-diffusion/blob/main/vae/diffusion_pytorch_model.bin",
+		"vae_SHA256": "1b134cded8eb78b184aefb8805b6b572f36fa77b255c483665dda931fa0130c5"
 	}],
     "keyword": "nousr robot",
     "tags": ["Mod"]
@@ -115,7 +129,9 @@
 		"release_date": "Nov 2022",
 		"download_link": "https://huggingface.co/Linaqruf/anything-v3.0/blob/main/Anything-V3.0-pruned.ckpt",
         "SHA256": "543bcbc21294831c6245cd74c8a7707761e28812c690f946cb81fef930d54b5e",
-		"description": "Anime style."
+		"description": "Anime style.",
+		"vae_link": "https://huggingface.co/Linaqruf/anything-v3.0/blob/main/vae/diffusion_pytorch_model.bin",
+		"vae_SHA256": "1ced03dc0cf388fc19c84959dcc12a4943f2d330ec2211a9bdf2918d3bf7ec4c"
 	}],
     "tags": ["Mod", "Anime"]
   },
@@ -128,7 +144,9 @@
 		"release_date": "Oct 2022",
 		"download_link": "https://huggingface.co/nitrosocke/Arcane-Diffusion/blob/main/arcane-diffusion-v3.ckpt",
         "SHA256": "7dd0e6760f5a6778bebbbdaedd96aa1038ca76c349194f0c1b5c28311e10a78b",
-		"description": "In the style of the Arcane TV show."
+		"description": "In the style of the Arcane TV show.",
+		"vae_link": "https://huggingface.co/Linaqruf/anything-v3.0/blob/main/vae/diffusion_pytorch_model.bin",
+		"vae_SHA256": "b8cf5b49d164db18a485d392b2d9a9b4e3636d70613cb756d2e1bc460dd13161"
 	}],
     "keyword": "arcane style",
     "tags": ["Mod"]
