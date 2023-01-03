@@ -23,8 +23,10 @@ $(function() {
 				var download = release_entry.download_link;
 				var hash = release_entry.SHA256;
 				var desc = release_entry.description;
-				//console.log('model-item-'+IDize, r_name, date, download, hash, desc);
-				createModelRelease('model-item-'+IDize, r_name, date, download, hash, desc);
+				var vae = release_entry.vae_link;
+				var vae_hash = release_entry.vae_SHA256;
+				//console.log('model-item-'+IDize, r_name, date, download, hash, desc, vae, vae_hash);
+				createModelRelease('model-item-'+IDize, r_name, date, download, hash, desc, vae, vae_hash);
 			}
 			
 			// Add tags to the model card
@@ -59,11 +61,15 @@ function createModelItem(name, info_link, creator, releases, keyword, tags, IDiz
 	$('#model-container').append(html);
 }
 
-function createModelRelease(element_target, r_name, date, download, hash, desc) {
+function createModelRelease(element_target, r_name, date, download, hash, desc, vae, vae_hash) {
 	var desc_html = '';
+	var vae_html = '';
 	if (desc != undefined) {
 		desc_html = `<br><b>Description: </b>${desc}</div>`
 	}
-	release_html = `<div class="release"><h4>${r_name} (${date}) <a href="${download}" title="Download Model"><i class="bi bi-download"></i></a></h4><b>SHA256: </b><code>${hash}</code>${desc_html}`
+	if (vae != undefined) {
+		vae_html = ` | <a href="${vae}" title="Download VAE"><i class="bi bi-file-earmark-text"></i></a>`
+	}
+	release_html = `<div class="release"><h4>${r_name} (${date}) <a href="${download}" title="Download Model"><i class="bi bi-download"></i></a>${vae_html}</h4><b>SHA256: </b><code>${hash}</code>${desc_html}`
 	$('#'+element_target+' .releases-container').append(release_html);
 }
