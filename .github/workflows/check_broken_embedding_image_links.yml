@@ -20,10 +20,10 @@ jobs:
           cache: 'pip'
       - name: Install Dependencies 
         run: |
-          pip install -r requirements.txt
+          pip install -r util/requirements.txt
       - name: Run Find Broken Image Links in embeddings.json
         run: |
-          python run_script_broken_images.py
+          python util/run_script_broken_images.py
         id: check
       - name: Print Output
         run: |

@@ -20,17 +20,19 @@ jobs:
           cache: 'pip'
       - name: Install Dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r util/requirements.txt
       - name: Run SHA Test on models.json
         run: |
-          python run_script_check_model_sha.py
+          python util/run_script_check_model_sha.py
         id: check
       - name: Print SHA Check Output
         run: |
-          echo "Has bad SHA256s: ${{ env.COUNT_BAD_SHA }}"
+          echo "Models have bad SHA256s: ${{ env.BAD_SHA }}"
           echo "${{ env.BAD_SHA_OUTPUT }}"
+          echo "Model VAEs have bad SHA256s: ${{ env.BAD_VAE_SHA }}"
+          echo "${{ env.BAD_VAE_SHA_OUTPUT }}"
       - name: Create Issue on Failed Workflow
-        if: ${{ env.COUNT_BAD_SHA == 'True' }}  # Seems to read it as a string
+        if: ${{ env.BAD_SHA == 'True' || env.BAD_VAE_SHA == 'True' }}  # Seems to read it as a string
         uses: dacbd/create-issue-action@main
         with:
           token: ${{ github.token }}
@@ -39,4 +41,5 @@ jobs:
             [Run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) - [Codebase](https://github.com/${{ github.repository }}/tree/${{ github.sha }})
             **Workflow name** - `${{ github.workflow }}`
             ### Fix: 
-            ${{ env.BAD_SHA_OUTPUT }}
+            ${{ env.BAD_SHA_OUTPUT }}<br>
+            ${{ env.BAD_VAE_SHA_OUTPUT }}
