@@ -26,9 +26,9 @@ body{
 	border-color: var(--btn-border);
 	color: var(--color);
 }
-.btn:hover {
-	background-color: var(--btn-hover-color);
-	border-color: var(--btn-border);
+.btn:hover, .btn:active {
+	background-color: var(--btn-hover-color)!important;
+	border-color: var(--btn-border)!important;
 }
 
 #embedding-container {

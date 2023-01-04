@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 	<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="shortcut icon" type="image/png" href="assets/favicon.ico">
 	
 	<!-- CSS -->
@@ -15,11 +15,10 @@
 	<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
 	<script src="assets/models.js"></script>
 	<script src="assets/embeddings.js"></script>
-    
+		
 	<title>AI Resources</title>
-    <style>
-
-
+	<style>
+	
 	</style>
 	</head>
 	<body>
@@ -36,19 +35,35 @@
 				<li class="nav-item">
 					<a class="nav-link" href="embeddings.html">Embeddings</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="links.html">More Links</a>
+				</li>
 			</ul>
 		</div>
 	</nav>
 	<div id="section" class="container">
-		<h1>Models</h1>
-		<div id="model-container">
-			<p>Loading Data from models.json</p>
-		</div>
-		<h1>Embeddings</h1>
-		<p>Embedding or textual inversion can be used to fine tune a model's output. The files are <code>.bin</code> or <code>.pt</code>. They are a lot smaller than a full model checkpoint (<code>.ckpt</code>) <a href="https://huggingface.co/docs/diffusers/training/text_inversion" class="external-link">[Read More]</a>.</p> 
-		<hr>
-		<div id="embedding-container">
-			<p>Loading Data from embeddings.json</p>
+		<div class="card-group">
+			<div class="card bg-dark">
+				<div class="card-body bg-dark">
+					<h5 class="card-title"><strong>Models</strong></h5>
+					<p class="card-text">A small list of cool Stable Diffusion models.</p>
+					<p class="card-text"><a href="models.html" class="btn btn-primary">Go to Models <i class="bi bi-arrow-right"></i></a></p>
+				</div>
+			</div>
+			<div class="card bg-dark">
+				<div class="card-body bg-dark">
+					<h5 class="card-title"><strong>Embeddings</strong></h5>
+					<p class="card-text">Embedding or textual inversion can be used to fine tune a model's output. The files are .bin or .pt. They are a lot smaller than a full model checkpoint (.ckpt)</p>
+					<p class="card-text"><a href="embeddings.html" class="btn btn-primary">Go to Embeddings <i class="bi bi-arrow-right"></i></a></p>
+				</div>
+			</div>
+			<div class="card bg-dark">
+				<div class="card-body bg-dark">
+					<h5 class="card-title">More Links</h5>
+					<p class="card-text">More links to various other sites with more info, models, or tools.</p>
+					<p class="card-text"><a href="links.html" class="btn btn-primary">Go to More Links <i class="bi bi-arrow-right"></i></a></p>
+				</div>
+			</div>
 		</div>
 	</div>
 	</body>
