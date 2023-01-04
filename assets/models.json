@@ -44,7 +44,7 @@
   },
   {
     "name": "Waifu Diffusion v1.3",
-    "info_link": "https://huggingface.co/hakurei/waifu-diffusion",
+    "info_link": "https://huggingface.co/hakurei/waifu-diffusion-v1-3",
     "creator": "hakurei",
     "releases": [{
         "name": "wd-v1-3-float32.ckpt",
