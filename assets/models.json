@@ -55,7 +55,7 @@
 		"vae_link": "https://huggingface.co/hakurei/waifu-diffusion/blob/main/vae/diffusion_pytorch_model.bin",
 		"vae_SHA256": "3e174991e5609bc5c2b3995e3f223fb2c5f0ae3be307fa9591b351d837a08770"
     }],
-    "tags": ["Mod", "Anime"]
+    "tags": ["Mod", "Anime", "Base SD 1.5"]
   },
   {
     "name": "JWST Deep Space Diffusion",
@@ -71,7 +71,7 @@
 		"vae_SHA256": "3a407758a137a1c6bfcd11e154eb06e4dcffa996009e46eb27d1af04a81e7e74"
     }],
     "keyword": "JWST",
-    "tags": ["Mod"]
+    "tags": ["Mod", "Base SD 1.5"]
   },
   {
     "name": "Inkpunk Diffusion v2",
@@ -87,7 +87,7 @@
 		"vae_SHA256": "dcf4507d99b88db73f3916e2a20169fe74ada6b5582e9af56cfa80f5f3141765"
     }],
     "keyword": "nvinkpunk",
-    "tags": ["Mod"]
+    "tags": ["Mod", "Base SD 1.5"]
   },
   {
     "name": "Dungeons and Diffusion",
@@ -102,7 +102,7 @@
 		"vae_link": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/blob/main/vae/diffusion_pytorch_model.bin",
 		"vae_SHA256": "36bb8e1b54aba3a0914eb35fba13dcb107e9f18d379d1df2158732cd4bf56a94"
 	}],
-    "tags": ["Mod", "RPG"]
+    "tags": ["Mod", "RPG", "Base SD 1.5"]
   },
   {
     "name": "Robo Diffusion",
@@ -118,7 +118,7 @@
 		"vae_SHA256": "1b134cded8eb78b184aefb8805b6b572f36fa77b255c483665dda931fa0130c5"
 	}],
     "keyword": "nousr robot",
-    "tags": ["Mod"]
+    "tags": ["Mod", "Base SD 1.5"]
   },
   {
     "name": "Anything v3",
@@ -133,7 +133,7 @@
 		"vae_link": "https://huggingface.co/Linaqruf/anything-v3.0/blob/main/vae/diffusion_pytorch_model.bin",
 		"vae_SHA256": "1ced03dc0cf388fc19c84959dcc12a4943f2d330ec2211a9bdf2918d3bf7ec4c"
 	}],
-    "tags": ["Mod", "Anime"]
+    "tags": ["Mod", "Anime", "Base SD 1.5"]
   },
   {
     "name": "Arcane Diffusion v3",
@@ -149,7 +149,7 @@
 		"vae_SHA256": "b8cf5b49d164db18a485d392b2d9a9b4e3636d70613cb756d2e1bc460dd13161"
 	}],
     "keyword": "arcane style",
-    "tags": ["Mod"]
+    "tags": ["Mod", "Base SD 1.5"]
   },
   {
     "name": "RPG",
@@ -162,6 +162,59 @@
         "SHA256": "2c99eb705a6f7e84cd4dc2e41a024cbfa1e9b2c46cb2ca37e6f5e577aa79a3c9",
 		"description": "RPG and DnD classes."
 	}],
-    "tags": ["Mod", "RPG"]
+    "tags": ["Mod", "RPG", "Base SD 1.5"]
+  },
+  {
+    "name": "Seek Art Mega",
+    "info_link": "https://huggingface.co/coreco/seek.art_MEGA",
+    "creator": "coreco",
+	"releases": [{
+        "name": "seek_art_mega_v1.ckpt",
+		"release_date": "Dec 2022",
+		"download_link": "https://huggingface.co/coreco/seek.art_MEGA/blob/main/seek_art_mega_v1.ckpt",
+        "SHA256": "	3e777936f8c4500f46d0ad3674178d0e0879b8350f116a96c977af9813d72987",
+		"description": "General Model."
+	}],
+    "tags": ["Mod", "Base SD 1.5"]
+  },
+  {
+    "name": "ProtoGen",
+    "info_link": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release",
+    "creator": "darkstorm2150",
+	"releases": [{
+        "name": "ProtoGen_X5.3.ckpt",
+		"release_date": "Jan 2023",
+		"download_link": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release/blob/main/ProtoGen_X5.3.ckpt",
+        "SHA256": "f762cdef0235669136c16421e7f3affb47ab78e20890d5258347cf5ae571af76",
+		"description": "Mega merge of the previous version with Robodiffusion removed and Dreamlike-PhotoReal V.2 added"
+	},
+	{
+        "name": "ProtoGen_X3.4.ckpt",
+		"release_date": "Dec 2022",
+		"download_link": "https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/blob/main/ProtoGen_X3.4.ckpt",
+        "SHA256": "61a37adf761fbbf4cb3d88da480216341113d0fbcf9f0f77ea71863866a9b6fc",
+		"description": "This is Protogen_v2.2 with 5% of the following: roboDiffusion_v1.ckpt + openjourney-v2-unpruned.ckpt + analog-diffusion-1.0.ckpt + rpg_v2Beta.ckpt"
+	},
+	{
+        "name": "ProtoGen_X3.4.ckpt",
+		"release_date": "Dec 2022",
+		"download_link": "https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/blob/main/Protogen_V2.2.ckpt",
+        "SHA256": "bb725eaf2ed90092e68b892a1d6262f538131a7ec6a736e50ae534be6b5bd7b1",
+		"description": "Mix: f22_v1.ckpt + elldrethSLucidMix_V10.cpkt + hassanBlendAllVersio_hassanBlend14.ckpt + seek_art_mega_v1.ckpt + modelshoot-1.0.ckpt"
+	}],
+    "tags": ["Mod", "Base SD 1.5", "Merge"]
+  },
+  {
+    "name": "Seek Art Mega",
+    "info_link": "https://huggingface.co/22h/vintedois-diffusion-v0-1",
+    "creator": "22h",
+	"releases": [{
+        "name": "vintedois-diffusion-v0-1.ckpt",
+		"release_date": "Dec 2022",
+		"download_link": "https://huggingface.co/22h/vintedois-diffusion-v0-1/blob/main/model.ckpt",
+        "SHA256": "fe2cf8a20b8846703961f4355a0df71e8f8c0a6f2d644c894a30f5f28c455b2a",
+		"description": "General Model. 'estilovintedois' to force style."
+	}],
+    "tags": ["Mod", "Base SD 1.5"]
   }
 ]
