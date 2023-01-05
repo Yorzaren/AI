@@ -172,7 +172,7 @@
         "name": "seek_art_mega_v1.ckpt",
 		"release_date": "Dec 2022",
 		"download_link": "https://huggingface.co/coreco/seek.art_MEGA/blob/main/seek_art_mega_v1.ckpt",
-        "SHA256": "	3e777936f8c4500f46d0ad3674178d0e0879b8350f116a96c977af9813d72987",
+        "SHA256": "3e777936f8c4500f46d0ad3674178d0e0879b8350f116a96c977af9813d72987",
 		"description": "General Model."
 	}],
     "tags": ["Mod", "Base SD 1.5"]
