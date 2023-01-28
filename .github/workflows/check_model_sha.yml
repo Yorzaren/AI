@@ -1,6 +1,8 @@
 # Check the models.json and if SHA256 are mixmatched, create an issue. Run on call or on Sundays.
 name: Check SHA256s strings in models.json against live counter part
 on:
+  pull_request:
+    branches: [master, main]
   workflow_dispatch:
   schedule:
     # Runs "At 00:00 UTC on Sunday" (see https://crontab.guru)

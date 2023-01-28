@@ -1,6 +1,8 @@
 # Check the embeddings.json and if broken links are found create an issue. Run on call or on Sundays.
 name: Find Broken Image Links from embeddings.json
 on:
+  pull_request:
+    branches: [master, main]
   workflow_dispatch:
   schedule:
     # Runs "At 00:00 UTC on Sunday" (see https://crontab.guru)
