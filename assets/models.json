@@ -98,9 +98,7 @@
 		"release_date": "Nov 2022",
 		"download_link": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/blob/main/DnD_Classes_and_Species.ckpt",
         "SHA256": "14127ea0778b9f558d85cb9c5d94bda24bc4c9cb8d2f8900fec5ef7fad7925c7",
-		"description": "Makes DnD classes. See: https://huggingface.co/datasets/0xJustin/Dungeons-and-Diffusion for the available races.",
-		"vae_link": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/blob/main/vae/diffusion_pytorch_model.bin",
-		"vae_SHA256": "36bb8e1b54aba3a0914eb35fba13dcb107e9f18d379d1df2158732cd4bf56a94"
+		"description": "Makes DnD classes. See: https://huggingface.co/datasets/0xJustin/Dungeons-and-Diffusion for the available races."
 	}],
     "tags": ["Mod", "RPG", "Base SD 1.5"]
   },
@@ -119,21 +117,6 @@
 	}],
     "keyword": "nousr robot",
     "tags": ["Mod", "Base SD 1.5"]
-  },
-  {
-    "name": "Anything v3",
-    "info_link": "https://huggingface.co/Linaqruf/anything-v3.0",
-    "creator": "Linaqruf",
-	"releases": [{
-        "name": "Anything-V3.0-pruned.ckpt",
-		"release_date": "Nov 2022",
-		"download_link": "https://huggingface.co/Linaqruf/anything-v3.0/blob/main/Anything-V3.0-pruned.ckpt",
-        "SHA256": "543bcbc21294831c6245cd74c8a7707761e28812c690f946cb81fef930d54b5e",
-		"description": "Anime style.",
-		"vae_link": "https://huggingface.co/Linaqruf/anything-v3.0/blob/main/vae/diffusion_pytorch_model.bin",
-		"vae_SHA256": "1ced03dc0cf388fc19c84959dcc12a4943f2d330ec2211a9bdf2918d3bf7ec4c"
-	}],
-    "tags": ["Mod", "Anime", "Base SD 1.5"]
   },
   {
     "name": "Arcane Diffusion v3",
