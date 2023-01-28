@@ -40,3 +40,4 @@ jobs:
             **Workflow name** - `${{ github.workflow }}`
             ### Fix: 
             ${{ env.BAD_LINKS_OUTPUT }}
+          assignees: Yorzaren

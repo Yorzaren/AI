@@ -43,3 +43,4 @@ jobs:
             ### Fix: 
             ${{ env.BAD_SHA_OUTPUT }}<br>
             ${{ env.BAD_VAE_SHA_OUTPUT }}
+          assignees: Yorzaren
