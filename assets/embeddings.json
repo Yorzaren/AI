@@ -489,21 +489,6 @@
     "token_word": "<tcircle>"
   },
   {
-    "name": "tooth-wu",
-    "source": "https://huggingface.co/sd-concepts-library/tooth-wu",
-    "images": [
-      "https://huggingface.co/sd-concepts-library/tooth-wu/resolve/main/concept_images/7.jpeg",
-      "https://huggingface.co/sd-concepts-library/tooth-wu/resolve/main/concept_images/4.jpeg",
-      "https://huggingface.co/sd-concepts-library/tooth-wu/resolve/main/concept_images/3.jpeg",
-      "https://huggingface.co/sd-concepts-library/tooth-wu/resolve/main/concept_images/0.jpeg",
-      "https://huggingface.co/sd-concepts-library/tooth-wu/resolve/main/concept_images/5.jpeg",
-      "https://huggingface.co/sd-concepts-library/tooth-wu/resolve/main/concept_images/6.jpeg",
-      "https://huggingface.co/sd-concepts-library/tooth-wu/resolve/main/concept_images/1.jpeg",
-      "https://huggingface.co/sd-concepts-library/tooth-wu/resolve/main/concept_images/2.jpeg"
-    ],
-    "token_word": "<tooth-wu>"
-  },
-  {
     "name": "summie-style",
     "source": "https://huggingface.co/sd-concepts-library/summie-style",
     "images": [

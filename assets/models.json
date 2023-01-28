@@ -98,9 +98,7 @@
 		"release_date": "Nov 2022",
 		"download_link": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/blob/main/DnD_Classes_and_Species.ckpt",
         "SHA256": "14127ea0778b9f558d85cb9c5d94bda24bc4c9cb8d2f8900fec5ef7fad7925c7",
-		"description": "Makes DnD classes. See: https://huggingface.co/datasets/0xJustin/Dungeons-and-Diffusion for the available races.",
-		"vae_link": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/blob/main/vae/diffusion_pytorch_model.bin",
-		"vae_SHA256": "36bb8e1b54aba3a0914eb35fba13dcb107e9f18d379d1df2158732cd4bf56a94"
+		"description": "Makes DnD classes. See: https://huggingface.co/datasets/0xJustin/Dungeons-and-Diffusion for the available races."
 	}],
     "tags": ["Mod", "RPG", "Base SD 1.5"]
   },
