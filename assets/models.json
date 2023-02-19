@@ -141,7 +141,7 @@
 	"releases": [{
         "name": "RPG-v2.ckpt",
 		"release_date": "Dec 2022",
-		"download_link": "https://huggingface.co/Anashel/rpg/blob/main/RPG-v2.ckpt",
+		"download_link": "https://huggingface.co/Anashel/rpg/blob/main/RPG-V2-Model-Download/RPG-v2.ckpt",
         "SHA256": "2c99eb705a6f7e84cd4dc2e41a024cbfa1e9b2c46cb2ca37e6f5e577aa79a3c9",
 		"description": "RPG and DnD classes."
 	}],
