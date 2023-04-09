@@ -37,18 +37,6 @@
     "token_word": "<warcharport>"
   },
   {
-    "name": "Dan Seagrave",
-    "source": "https://huggingface.co/sd-concepts-library/dan-seagrave-art-style",
-    "images": [
-      "https://huggingface.co/sd-concepts-library/dan-seagrave-art-style/resolve/main/concept_images/3.jpeg",
-      "https://huggingface.co/sd-concepts-library/dan-seagrave-art-style/resolve/main/concept_images/0.jpeg",
-      "https://huggingface.co/sd-concepts-library/dan-seagrave-art-style/resolve/main/concept_images/2.jpeg",
-      "https://huggingface.co/sd-concepts-library/dan-seagrave-art-style/resolve/main/concept_images/1.jpeg",
-      "https://huggingface.co/sd-concepts-library/dan-seagrave-art-style/resolve/main/concept_images/4.jpeg"
-    ],
-    "token_word": "<dan-seagrave>"
-  },
-  {
     "name": "Kojima Ayami",
     "source": "https://huggingface.co/sd-concepts-library/kojima-ayami",
     "images": [
