@@ -124,11 +124,7 @@
       "https://huggingface.co/sd-concepts-library/fairy-tale-painting-style/resolve/main/concept_images/2.jpeg",
       "https://huggingface.co/sd-concepts-library/fairy-tale-painting-style/resolve/main/concept_images/3.jpeg",
       "https://huggingface.co/sd-concepts-library/fairy-tale-painting-style/resolve/main/concept_images/1.jpeg",
-      "https://huggingface.co/sd-concepts-library/fairy-tale-painting-style/resolve/main/concept_images/0.jpeg",
-      "https://i.imgur.com/lHEuR8H.png",
-      "https://i.imgur.com/9D9fAte.png",
-      "https://i.imgur.com/dY7fV4m.png",
-      "https://i.imgur.com/0i6bK5h.png"
+      "https://huggingface.co/sd-concepts-library/fairy-tale-painting-style/resolve/main/concept_images/0.jpeg"
     ],
     "token_word": "<fairy-tale-painting-style>"
   },
@@ -234,10 +230,7 @@
       "https://huggingface.co/sd-concepts-library/iridescent-photo-style/resolve/main/concept_images/5.jpeg",
       "https://huggingface.co/sd-concepts-library/iridescent-photo-style/resolve/main/concept_images/3.jpeg",
       "https://huggingface.co/sd-concepts-library/iridescent-photo-style/resolve/main/concept_images/0.jpeg",
-      "https://huggingface.co/sd-concepts-library/iridescent-photo-style/resolve/main/concept_images/1.jpeg",
-      "https://i.imgur.com/64JiIRe.png",
-      "https://i.imgur.com/tu9Arc3.png",
-      "https://i.imgur.com/82f8tuR.png"
+      "https://huggingface.co/sd-concepts-library/iridescent-photo-style/resolve/main/concept_images/1.jpeg"
     ],
     "token_word": "<iridescent-photo-style>"
   },
@@ -252,11 +245,7 @@
       "https://huggingface.co/sd-concepts-library/iridescent-illustration-style/resolve/main/concept_images/3.jpeg",
       "https://huggingface.co/sd-concepts-library/iridescent-illustration-style/resolve/main/concept_images/2.jpeg",
       "https://huggingface.co/sd-concepts-library/iridescent-illustration-style/resolve/main/concept_images/0.jpeg",
-      "https://huggingface.co/sd-concepts-library/iridescent-illustration-style/resolve/main/concept_images/7.jpeg",
-      "https://i.imgur.com/SIA80Kk.png",
-      "https://i.imgur.com/VNSKVF2.png",
-      "https://i.imgur.com/gLfCxqd.png",
-      "https://i.imgur.com/BVOttDh.png"
+      "https://huggingface.co/sd-concepts-library/iridescent-illustration-style/resolve/main/concept_images/7.jpeg"
     ],
     "token_word": "<iridescent-illustration-style>"
   },
@@ -414,11 +403,7 @@
       "https://huggingface.co/sd-concepts-library/warhammer-40k-drawing-style/resolve/main/concept_images/2.jpeg",
       "https://huggingface.co/sd-concepts-library/warhammer-40k-drawing-style/resolve/main/concept_images/0.jpeg",
       "https://huggingface.co/sd-concepts-library/warhammer-40k-drawing-style/resolve/main/concept_images/7.jpeg",
-      "https://huggingface.co/sd-concepts-library/warhammer-40k-drawing-style/resolve/main/concept_images/8.jpeg",
-      "https://i.imgur.com/q0HNA4b.png",
-      "https://i.imgur.com/BE5SSnF.png",
-      "https://i.imgur.com/CWuFUc6.png",
-      "https://i.imgur.com/j31VMHi.png"
+      "https://huggingface.co/sd-concepts-library/warhammer-40k-drawing-style/resolve/main/concept_images/8.jpeg"
     ],
     "token_word": "<warhammer40k-drawing-style>"
   },
